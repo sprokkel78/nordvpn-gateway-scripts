@@ -1,4 +1,4 @@
-# nordvpn-gateway-scripts
+![Screenshot](https://github.com/sprokkel78/nordvpn-gateway-scripts/blob/main/title.png)
 
 These scripts  enable/disable the nordvpn connection upon activation/disactivation of the chosen network device and they enable the LAN to use this network connection as a gateway to the nordvpn tunnel.
 
