@@ -1,8 +1,6 @@
 # nordvpn-gateway-scripts
 
-These scripts:
-	. enable/disable the nordvpn connection upon activation/disactivation of the chosen network device.
-	. enable the LAN to use this network connection as a gateway to the nordvpn tunnel.
+These scripts  enable/disable the nordvpn connection upon activation/disactivation of the chosen network device and they enable the LAN to use this network connection as a gateway to the nordvpn tunnel.
 
 1. Place 01-vpn-up in /etc/NetworkManager/dispatcher.d/
 2. Place 02-vpn-down in /etc/NetworkManager/dispatcher.d/
