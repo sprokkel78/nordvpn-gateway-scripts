@@ -8,7 +8,10 @@ These scripts  enable/disable the nordvpn connection upon activation/disactivati
 4. Place vpn-gateway-start.sh in your homedirectory
 5. Place vpn-gateway-stop.sh in your homedirectory
 6. Again, edit these files to set your network settings..
+7. Place bring-vpn-up.sh in your homedirectory
+8. Place bring-vpn-down.sh in your homedirectory
+9. Done
 
-After reboot your vpn connection should now be in auto-connect mode and the lan has access to the gateway.
+All files should be executable.  After reboot your vpn connection should now be in auto-connect mode and the lan has access to the gateway.
 
 Note: "NordVPN must be configured to use OPENVPN for the gateway to work."
