@@ -1,0 +1,15 @@
+#!/bin/bash
+
+INTERFACE=$1
+STATUS=$2
+
+if [ "$INTERFACE" = "end0" ] && [ "$STATUS" = "up" ]; then  # Replace end0 with your interface name
+    IP_ADDRESS=$(ip -4 addr show "$INTERFACE" | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
+    /home/sprokkel/bring-vpn-up.sh
+fi
+
+if [ "$INTERFACE" = "nordtun" ] && [ "$STATUS" = "up" ]; then  # Set NordVPN to use OPENVPN
+    IP_ADDRESS=$(ip -4 addr show "$INTERFACE" | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
+    /home/sprokkel/vpn-gateway-start.sh
+fi
+
