@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo /usr/bin/nordvpn c be
+sudo /usr/bin/nordvpn c
