@@ -1,3 +1,3 @@
 #!/bin/sh
-sudo iptables-nft -t nat -F
-sudo iptables-nft -F FORWARD
+sudo /usr/bin/iptables -t nat -F
+sudo /usr/bin/iptables -F FORWARD
