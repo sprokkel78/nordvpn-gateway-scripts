@@ -14,20 +14,4 @@ sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.106 -o nordtun -j MASQ
 sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.112 -o nordtun -j MASQUERADE
 sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.113 -o nordtun -j MASQUERADE
 sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.150 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.151 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.152 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.153 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.154 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.155 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.156 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.157 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.158 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.159 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.160 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.161 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.162 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.163 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.164 -o nordtun -j MASQUERADE
-sudo /usr/bin/iptables -t nat -I POSTROUTING -s 192.168.1.165 -o nordtun -j MASQUERADE
-
 
