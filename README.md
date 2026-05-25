@@ -16,3 +16,5 @@ IP-Forwarding must be enabled. /proc/sys/net/ipv4/ip_forward should contain 1.
 
 All files should be executable.  After reboot your vpn connection should now be in auto-connect mode and the lan has access to the gateway.
 Note: "NordVPN must be configured to use OPENVPN for the gateway to work."
+
+Disable firewalld.
