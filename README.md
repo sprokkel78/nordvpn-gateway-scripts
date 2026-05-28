@@ -18,3 +18,7 @@ All files should be executable.  After reboot your vpn connection should now be 
 Note: "NordVPN must be configured to use OPENVPN for the gateway to work."
 
 Disable firewalld.
+
+Nordvpn app should have killswitch enabled / lan-discovery enabled.
+
+Nordvpn app should allow port 53 if you use unbound on your vpn gateway host.
